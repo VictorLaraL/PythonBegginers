@@ -39,6 +39,7 @@ En python los tipos básicos se dividen en:
 * Cadenas de texto: Como "Hola mundo"
 * Valores Booleanos: True (cierto), False (falso)
 
+Probemos los tipos basicos con el siguiente codigo:
 
     #Tipos basicos en Python
 
@@ -88,6 +89,7 @@ El orden de presendencia de ejecucion de los operadores aritmeticos es:
 3. Multiplicacion, division, division entera, modulo: *,/,//,%
 4. suma, resta: +,-}
 
+VEamos como funciona la precedencia de operaciones con el codigo siguiente: 
 
     #Operadores en python
 
