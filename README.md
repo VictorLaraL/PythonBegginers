@@ -39,6 +39,7 @@ En python los tipos básicos se dividen en:
 * Cadenas de texto: Como "Hola mundo"
 * Valores Booleanos: True (cierto), False (falso)
 
+
     #Tipos basicos en Python
 
     #Numeros: Enteros
@@ -78,22 +79,15 @@ En python los tipos básicos se dividen en:
 
 ## Operadores aritméticos
 
-Los operadores aritméticos binarios son aquellos que necesitan de dos números y al aplicarles una operación dan como resultado un tercer numero. en python los operadores aritmeticos son los siguientes: 
+Los operadores aritméticos binarios son aquellos que necesitan de dos números y al aplicarles una operación dan como resultado un tercer numero. 
 
-Operador    nombre
-'+'           Suma
-'-'           Resta
-'*'           Multiplicación
-'/'           Division
-'**'          Exponente
-'%'           Modulo
-'( )'         Paréntesis
 ###    Precedencia de operadores
 El orden de presendencia de ejecucion de los operadores aritmeticos es:
 1. Exponente: **
 2. negacion: -
 3. Multiplicacion, division, division entera, modulo: *,/,//,%
 4. suma, resta: +,-}
+
 
     #Operadores en python
 
