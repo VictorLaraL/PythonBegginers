@@ -2,54 +2,59 @@
 
 ## Introduccion 
 
-###    ¿Que es python?
-Python es un lenguaje de alto nivel, con propósito general de script o interpretado. Fue creado por Van Rossum a principios de los años 90 cuyo nombre esta inspirado en el grupo de cómicos ingleses "Monty Python". Es un lenguaje similar a perle pero con una sintaxis limpia que favorece a un código legible.
+###    ¿Qué es python?
+Python es un lenguaje de alto nivel de tipo interpretado utilizado comunmente para la creación de scripts. Fue creado por el científico de la computación Guido Van Rossum a principios de los años 90; el nombre del lenguaje está inspirado en el grupo de cómicos ingleses "Monty Python". Es un lenguaje similar a Perl pero se concentra más en una sintaxis limpia y en la fácil lectura del código.
 
 ###    Interpretado
-Un lenguaje interpretado o de script es aquel que se ejecuta utilizando un programa intermedio llamado interprete, en lugar de compilar el código y arrojar un objeto (archivo ejecutable para el SO) el intérprete ejecuta el las ordenes o scrpts, dándonos un resultado lógico.
+Un lenguaje interpretado o de 'script' es aquel que se ejecuta utilizando un programa intermedio llamado intérprete; en lugar de compilar el código y retornar un objeto (archivo ejecutable para el SO) el intérprete ejecuta las ordenes o scripts, dándonos un resultado lógico.
 
-No obstante python tiene muchas de las caracteristicas de los lenguajes compilados, por lo que se podría decir que es semi interpretado. Al igual que en java y muchos otros lenguajes, el código fuente de python se traduce a un pseudocodigo maquina intermedio llamado bytecode la primera vez que se ejecuta, generando archivos .pyc o .pyo, que son los que se ejecutaran en repetidas ocasiones.
+Sin embargo, Python tiene muchas características de los lenguajes compilados, por lo que se podría decir que es 'semi-interpretado' dado que al igual que en Java y muchos otros lenguajes no interpretados el código fuente de Python se traduce a un pseudocódigo máquina intermedio llamado 'bytecode' que al ejecutarse por primera vez genera archivos .pyc o .pyo, que son los que se ejecutaran en repetidas ocasiones posteriores.
 
 ###    Tipado Dinámico
-Esta característica se refiere a que no es necesario declarar el tipo de dato que va a contener una determinada variable, sino que su tipo se determinara en tiempo de ejecución según el tipo de valor al que se le asigne y el tipo de esta variable puede cambiar si se le asigna un valor de otro tipo.
+Esta característica se refiere a que no es necesario declarar el tipo de dato que va a contener una determinada variable, sino que su tipo se determinara en tiempo de ejecución según el tipo de valor que se le asigne. Adicionalmente, el tipo de esta variable puede cambiar si se le asigna un tipo de valor distinto.
 
 ###    Fuertemente tipado
-No se permite tratar a una variable como si fuera de un tipo distinto al que tiene, es necesario convertir de forma explicita (casting) dicha variable al nuevo tipo previamente.
+No se permite tratar a una variable como si fuera de un tipo distinto al que tiene, es necesario convertir de forma explícita (casting) dicha variable al nuevo tipo previamente.
 
 ## Hello wolrd
 
-Como primer acercamiento al lenguaje haremos que nos muestre por pantalla un texto "Hello world" primero desde el interprete en la caja de comandos (shell), lo activamos escribiendo el comando python y despues escribimos el codigo siguiente y oprimimos la tecla enter:
+Como primer acercamiento al lenguaje haremos que imprima el texto "Hello world" en pantalla. 
+
+En primer lugar lo haremos desde el intérprete en la caja de comandos (shell).
+Lo activamos escribiendo el comando 'python' y después escribimos el código siguiente:
 
     print('Hello world')
 
-Ahora para crear un fichero abrimos nuestro editor de texto o ID de preferencia y copiamos el código dentro del fichero guardando el fichero con el nombre que deseemos y la extensión .py (Como ejemplo podemos guardarlo con el nombre hola.py). Para ejecutarlo a través de la caja de comandos nos dirigimos a la ruta donde esta el archivo y bastara con escribir el nombre del archivo con su extensión y oprimir la tecla enter.
+Al finalizar, presionamos la tecla 'enter'. 
 
-Nota: Para agregar comentarios en python podemos usar "#" al inicio de la linea de comando y """al inicio y final de un comentario en el que se emplee mas de una linea.
+Ahora para crear un fichero abrimos nuestro editor de texto o IDE de preferencia y copiamos el código dentro de él, guardando el fichero con el nombre que deseemos y la extensión '.py' (por ejemplo: 'hola.py'). Posteriormente, podemos ejecutar el código a través de la caja de comandos dirigiéndonos a la dirección donde está el archivo y bastará con escribir el nombre de este con su extensión y oprimir la tecla 'enter'.
 
-    #Ejemplo de un comentario en una sola linea
+Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea de comando y """al inicio y final de un comentario en el que se emplee más de una línea.
+
+    #Ejemplo de un comentario en una sola línea
 
     """ Ejemplo de otro comentario
-    en mas de una linea """
+    en mas de una línea """
 
 ## Tipos Básicos
 
 En python los tipos básicos se dividen en:
  
-* Numeros: Como pueden ser enteros(1,2,3,...), de coma flotante(1.1,1.2,1.3,...) o complejos (7+5j)
+* Números: Como pueden ser enteros(1,2,3,...), de coma flotante(1.1,1.2,1.3,...) o complejos (7+5j)
 * Cadenas de texto: Como "Hola mundo"
 * Valores Booleanos: True (cierto), False (falso)
 
-Probemos los tipos basicos con el siguiente codigo:
+Probemos los tipos básicos con el siguiente código:
 
-    #Tipos basicos en Python
+    #Tipos básicos en Python
 
-    #Numeros: Enteros
-    a = 3 # Asignacion de un valor enteroa una variable
+    #Números: Enteros
+    a = 3 # Asignación de un valor entero a una variable
 
     print("El valor de la variable a es: ", a)
 
-    #Numeros: Coma flotante
-    b = -1.5 # Asignacion de un entero con decimales o de coma flotante
+    #Números: Coma flotante
+    b = -1.5 # Asignación de un entero con decimales o de coma flotante
 
     print('El valor de la vareiable b es: ', str(b))
 
@@ -70,7 +75,7 @@ Probemos los tipos basicos con el siguiente codigo:
 
     print("El valor de 'x' es: {} y el de 'y' es: {}".format(x,y))
 
-    #Nota: Con la funcion type() podemos identificar el tipo de una variable
+    #Nota: Con la función type() podemos identificar el tipo de una variable
 
     print(type(a))
 
@@ -80,22 +85,22 @@ Probemos los tipos basicos con el siguiente codigo:
 
 ## Operadores aritméticos
 
-Los operadores aritméticos binarios son aquellos que necesitan de dos números y al aplicarles una operación dan como resultado un tercer numero. 
+Los operadores aritméticos binarios son aquellos que necesitan de dos números y al aplicarles una operación dan como resultado un tercer número. 
 
 ###    Precedencia de operadores
-El orden de presendencia de ejecucion de los operadores aritmeticos es:
+El orden de presendencia de ejecución de los operadores aritméticos es:
 1. Exponente: **
-2. negacion: -
-3. Multiplicacion, division, division entera, modulo: *,/,//,%
-4. suma, resta: +,-}
+2. Negación: -
+3. Multiplicación, Division, División Entera, Módulo: *,/,//,%
+4. Suma, Resta: +,-}
 
-VEamos como funciona la precedencia de operaciones con el codigo siguiente: 
+Veamos cómo funciona la precedencia de operaciones con el código siguiente: 
 
     #Operadores en python
 
     a,b = 10,6 # Definimos dos variables para utilizar los operadores
 
-    #Para mostrar por pantalla (imprimir) alguna operacion lo podemos hacer de dos maneras, la primera con la operacion suma:
+    #Para mostrar por pantalla (imprimir) alguna operación lo podemos hacer de dos maneras, la primera con la operación suma:
 
     print(a+b)
 
@@ -108,12 +113,12 @@ VEamos como funciona la precedencia de operaciones con el codigo siguiente:
 
     print("la resta de {} menos {} es: {}".format(a,b,a-b))
 
-    #Multiplicacion
+    #Multiplicación
 
     c = a*b
     print("La multiplicacion de las dos variables es: ", str(c))
 
-    #Division
+    #División
 
     c = a/b
     print(" la division de las variables es: ", str(c))
@@ -122,16 +127,16 @@ VEamos como funciona la precedencia de operaciones con el codigo siguiente:
 
     print(a**2)
 
-    #Modulo: La operacion modulo devuelve el residuo de una dvision
+    #Módulo: La operación módulo devuelve el residuo de una dvisión
 
     c = a%b 
     print("El modulo de {} entre {} es: {}".format(a,b,c))
 
-    #Parentesis: Los parentesis sirven para modificar el orden de precedencia, esto por que lo primero en ejecutarse es lo que esta dentro de los parentesis.
+    #Paréntesis: Los paréntesis sirven para modificar el orden de precedencia, esto por que lo primero en ejecutarse es lo que está dentro de los parentesis.
 
     d = a+b*a
     c = (a+b)*a
-    print("Si nosotros escribieramos la ecuacion a+b*a el resultado es: {} pero con los parentesis la operacion nos da: {}".format(d,c))
+    print("Si nosotros escribieramos la ecuación a+b*a el resultado es: {} pero con los paréntesis la operación nos da: {}".format(d,c))
 
 ## Colecciones
 Ya que en python todo son objetos, las colecciones resultan ser un tipo de dato en el que se almacena información de cierta forma estructurada, en python encontramos las 3 mas básicas: Listas, Tuplas y diccionarios.
@@ -140,14 +145,14 @@ Ya que en python todo son objetos, las colecciones resultan ser un tipo de dato 
 Es un tipo de colección ordenada. Seria el equivalente a un array o vector en otros lenguajes.
 
 
-    #Listas: Pueden contener cualquier tipo de datos, incluido mas listas
+    #Listas: Pueden contener cualquier tipo de datos, incluido más listas
 
     li = [1,2.5,'hola',True] # Cada elemento es separado por una coma
 
     #Para conocer el contenido de una lista podemos imprimirla con el metodo print
     print(li)
 
-    #Ademas tambien podemos imprimir algun valor dentro de la vista buscandolo de la siguiente forma:
+    #Ademas tambien podemos imprimir algun valor dentro de la vista buscándolo de la siguiente forma:
 
     print(li[0])
 
@@ -171,7 +176,7 @@ Es un tipo de colección ordenada. Seria el equivalente a un array o vector en o
 ###    Tuplas
 También es un tipo de colección ordenada al igual de las listas pero con las siguientes características.
 
-    #Tuplas: Todo lo explicado anteriormente aplica para las tuplas exxcepto la forma de definirlas mediante los parentesis ()
+    #Tuplas: Todo lo explicado anteriormente aplica para las tuplas excepto la forma de definirlas mediante los parentesis ()
 
     tupla = (1,2.5,"Python", False)
 
@@ -183,9 +188,9 @@ También es un tipo de colección ordenada al igual de las listas pero con las s
 
     print(type(tup))
 
-    #Esto ocurre por que el constructor de la tupla es la coma y no el parentesis.
+    #Esto ocurre por que el constructor de la tupla es la coma y no el paréntesis.
 
-    #A diferencia de las listas las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
+    #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
 
 
 ###    Dicionarios
@@ -198,7 +203,7 @@ Los diccionarios funcionan asociando claves con valores
 
     print(dic)
 
-    #Para buscar un valor en especifico se llama a travez de su clave de esta forma:
+    #Para buscar un valor en específico se llama a través de su clave de esta forma:
     print(dic["1"])
     print(dic["2"])
 
@@ -211,9 +216,9 @@ Los diccionarios funcionan asociando claves con valores
 ## Control de Flujo
     
 ###    Sentencias condicionales
-los condicionales nos permiten comprobar condiciones y hacer que nuestro programa se comporte de una forma u otra, que ejecute un fragmento de código u otro, dependiendo de esta condición.
+los condicionales nos permiten comprobar condicionantes y hacer que nuestro programa se comporte de una forma u otra, que ejecute un fragmento de código u otro, dependiendo de esta condición.
 
-Aquí es donde utilizamos los tipos booleanos, operadores lógicos y relacionales. La forma mas simple de un estamento condicional es un if (del ingles si) seguido de la condición a evaluar, dos puntos (:) y en la siguiente linea identando, el código a ejecutar en caso de que se cumpla dicha condición.
+Aquí es donde utilizamos los tipos booleanos, operadores lógicos y relacionales. La forma más simple de una sentencia condicional es un 'if' ('si' esto, entonces: x) seguido de la condición a evaluar, dos puntos (:) y en la siguiente linea identando, el código a ejecutar en caso de que se cumpla dicha condición.
 
 
     hola = 'hola mundo'
@@ -222,7 +227,7 @@ Aquí es donde utilizamos los tipos booleanos, operadores lógicos y relacionale
         hola = 'adios mundo'    
         print(hola)        
 
-ahora en el mismo caso, si la variable hola no guardara 'hola mundo' la condición no se cumpliría y el programa seguiría con su secuencia de ejecución,en el caso de que querramos que el programa algo si no se cumple deberíamos utilizar un else al final del código de la sentencia, de esta forma:
+Ahora, en el mismo caso si la variable 'hola' no guardara la cadena "hola mundo" la condición no se cumpliría y el programa seguiría con su secuencia de ejecución predeterminada; en el caso en donde queramos que el programa ejecute alguna sentencia si no se cumple la condicionante utilizamos un 'else' al final del código de la sentencia, de esta forma:
 
     hola = 'hola'
 
@@ -234,7 +239,7 @@ ahora en el mismo caso, si la variable hola no guardara 'hola mundo' la condici�
         print('se a asignado correctamente el saludo')
         print(hola)
 
-Existe un caso mas para la utilización del condicional if, este caso es cuando tenemos una serie de condicionales, es decir, cuando queremos que se haga algo sino lo otro sino esto otro, para ese caso podemos utilizar elif (contracción de else if), haciendo lo que se conoce como anidacion de condicionales (if anidados), veamos un ejemplo:
+Existe un caso más para la utilización del condicional 'if', este caso es cuando tenemos una serie de condicionales, es decir, cuando queremos que se haga algo si no lo otro, si no esto otro, entonces podemos utilizar 'elif' (contracción de 'else if'), haciendo lo que se conoce como anidacion de condicionales (if anidados), veamos un ejemplo:
 
     hola = 'hola'
 
@@ -282,9 +287,9 @@ En este bucle conocimos dos funciones necesarias pero no obligatorias en los buc
 
     dato3 = float(input('introducir dato casteado a flotante'))
 
-Otra función que utilizamos en el bucle es break, esta función nos permite salir de cualquier tipo de bucle en la sentencia en donde lo declaremos, posiblemente (si no esta al final del bucle) sin terminar lo restante del bucle.
+Otra función que utilizamos en el bucle es break, esta función nos permite salir de cualquier tipo de bucle en la sentencia en donde lo declaremos, posiblemente (si no esta al final del bucle) sin terminar las instruciones restantes dentro del bucle.
 
-De la misma forma existe una función mas que nos sirve en los bucles, hablamos de continúe (continuar), esta función nos pasa a la siguiente iteracion del bucle interrumpiendo la ejecución del bucle a partir de donde la declaremos.
+De la misma forma existe una función mas que nos sirve en los bucles, hablamos de continue (continuar), esta función nos pasa a la siguiente iteracion del bucle interrumpiendo la ejecución del bucle a partir de donde la declaremos.
 
 For: La sentencia for (o función) funciona como una forma genérica de iterar sobre una secuencia. como tal intenta facilitar su uso para esta.
 
@@ -302,15 +307,15 @@ For: La sentencia for (o función) funciona como una forma genérica de iterar s
     for nombre in nombres:
         print(nombre)
 
-en este caso la secuencia son la lista de nombres y con la función for iteramos sobre cada nombre en este caso para mostrarlos en pantalla uno por uno.
+en este caso la secuencia son la lista de nombres y con la función 'for' iteramos sobre cada nombre en este caso para mostrarlos en pantalla uno por uno.
 
-Pero tambien podemos utilizar esta funcion con range, que nos permite ir de un numero a otro, es decir, en un rango especifico, pero esa funcionalidad la veremos despues del tema de funciones.
+Pero tambien podemos utilizar esta funcion con range, que nos permite ir de un numero a otro, es decir, en un rango especifico, pero esa funcionalidad la veremos en temas posteriores.
 
 ## Funciones
       
-una función es un fragmento de código con un nombre asignado que realiza una serie de tareas y devuelve un valor. A los fragmentos de código que tienen un nombre asociado y no devuelven valores se les suele llamar procedimientos. En python no existen los procedimientos puesto que cuando a una función no le especificamos un valor de retorno la función devuelve un valor None (nada), equivalente a un Null.
+una función es un fragmento de código con un nombre asignado que realiza una serie de tareas y devuelve un valor. A los fragmentos de código que tienen un nombre asociado y no devuelven valores se les suele llamar procedimientos. En python no existen los procedimientos puesto que cuando a una función no le especificamos un valor de retorno la función devuelve un valor None (nada), equivalente a un NULL.
 
-Las funciones aportan características como la reutilizacion y ayudan en la depuración del código, al particionar nuestro código en diferentes funciones es mas fácil de leer y ayuda a encontrar posibles errores.
+Las funciones aportan características como la reutilización y ayudan en la depuración del código, al particionar nuestro código en diferentes funciones es mas fácil de leer y ayuda a encontrar posibles errores.
 
 En python las funciones se declaran de la siguiente forma:
 
@@ -318,7 +323,7 @@ En python las funciones se declaran de la siguiente forma:
         print(param1)
         print(param2)
 
-A la hora de declarar una función se comienza con la palabra reservada def seguido del nombre de nuestra función (en minúsculas como buena practica) y entre paréntesis los argumentos a pasar separados por comas. A continuación después de los dos puntos y con su debida identacion, en otra linea, escribimos el código que queremos que ejecute dicha función.
+A la hora de declarar una función se comienza con la palabra reservada def seguido del nombre de nuestra función (en minúsculas como buena practica) y entre paréntesis los argumentos a pasar separados por comas. A continuación después de los dos puntos y con su debida identación, en otra línea, escribimos el código que queremos que ejecute dicha función.
 
 para poder utilizar dicha función la forma de utilizarla es llamarla:
 
@@ -326,11 +331,11 @@ para poder utilizar dicha función la forma de utilizarla es llamarla:
 
 Podemos llamar a la función en cualquier parte del código siempre y cuando le pasemos los parámetros que nos pida.
 
-el paso de parámetros es en el mismo orden en que la declaramos, aunque podríamos pasarlos desordenamos pero especificando el nombre del parámetro al que le asociamos el valor.
+el paso de parámetros es en el mismo orden en que la declaramos, aunque podríamos pasarlos desordenados pero especificando el nombre del parámetro al que le asociamos el valor.
 
-    mi_funcion(param2 = 2, param1 = 'hola'
+    mi_funcion(param2 = 2, param1 = 'hola')
 
-veamos un ejemplo mas interesante utilizando lo ya aprendido
+veamos un ejemplo más interesante utilizando lo ya aprendido:
 
     nombres = []
     apellidos = []
@@ -368,9 +373,9 @@ veamos un ejemplo mas interesante utilizando lo ya aprendido
             else:
                 continue
 
-En el ejemplo anterior primero tenemos una función que recibe dos parámetros y después de verificar que no sean vacíos los almacena en dos listas previamente declaradas. Después entramos a un bucle donde podemos ingresar nombres con apellidos separados por un espacio para enviarlos a la función, haciendo uso de la función split podemos separar el nombre del apellido y meterlo a una lista, una vez creada la lista sabemos que el primer elemento es el nombre y el segundo el apellido así que en ese orden lo mandamos a la función. en caso de escribir x nos saldremos del bucle. Fuera del bucle entramos a otro bucle for donde utilizamos la funcion range, esta funcion recibe un entero que toma como el numero a recorrer desde 0 hasta el numero que le asignamos, por eso utilizamos la funcion len, esta funcion nos devuelve el numero de elementos que tenemos en la lista, entonces la funcion range ira de 0 hasta lo que devuelva len y se le asignara a la variable i o j dependiendo el bucle en el que estemos.
+En el ejemplo anterior primero tenemos una función que recibe dos parámetros y después de verificar que no sean vacíos los almacena en dos listas previamente declaradas. Después entramos a un bucle donde podemos ingresar nombres con apellidos separados por un espacio para enviarlos a la función, haciendo uso de la función 'split' podemos separar el nombre del apellido y meterlo a una lista, una vez creada la lista sabemos que el primer elemento es el nombre y el segundo el apellido así que en ese orden lo mandamos a la función. En caso de escribir x nos saldremos del bucle. Fuera del bucle entramos a otro bucle for donde utilizamos la funcion 'range', esta funcion recibe un entero que toma como el numero a recorrer desde 0 hasta el numero que le asignamos, por eso utilizamos la función 'len', esta funcion nos devuelve el numero de elementos que tenemos en la lista, entonces la funcion 'range' ira de 0 hasta lo que devuelva 'len' y se le asignará a la variable i o j dependiendo el bucle en el que estemos.
 
-en las funciones de igual manera podemos hacer que reciban un numero n de parametros utilizando el operador (*) antes del nombre, esto nos creara una tupla que almacenara los valores que le hayamos pasado a la función: 
+en las funciones de igual manera podemos hacer que reciban un número n de parámetros utilizando el operador (*) antes del nombre, esto nos creara una tupla que almacenara los valores que le hayamos pasado a la función: 
 
     def funcion_nparam(*param):
         print(nparam)
@@ -384,11 +389,11 @@ o en otros casos podemos pasar una cantidad n de datos pero sujetos a una clave,
 
     funcion_nparam = (primero = 1, segindo = 2, tercero = 3)
 
-Como ultimo aspecto a revisar en cuanto a las funciones, queda explicar el paso de parametros, si lo hacen por valor o por referencia. En el paso por referencia se hace paso de una referencia o puntero a la variable, es decir, la dirección de memoria donde se encuentra dicha variable y no su contenido en si. En el paso por valor, por el contrario, lo que se pasa como argumento es una copia del valor de dicha variable.
+Como último aspecto a revisar en cuanto a las funciones, queda explicar el paso de parámetros, si lo hacen por valor o por referencia. En el paso por referencia se hace paso de una referencia o puntero a la variable, es decir, la dirección de memoria donde se encuentra dicha variable y no su contenido en si. En el paso por valor, por el contrario, lo que se pasa como argumento es una copia del valor de dicha variable.
 
 La diferencia entre estos dos conceptos radica en las variables locales y globales. Toda variable que se declare fuera de una función o clase se le considera global puesto que se puede utilizar en todo el código restante a partir de su aparición, a diferencia de las variables locales, estas se encuentran contenidas en las funciones o clases (para ser mas específicos en las instancias de las clases) y su funcionamiento se limita dentro de la misma función o clase.
 
-Entonces volviendo al paso de parámetros, cuando hacemos un pase por referencia de la variable global esta se vera modificada en la función, mientras que si hacemos un paso por valor de la variable esta se clonara guardara en otro espacio de memoria, por tanto no se vera modificada por la función.
+Entonces volviendo al paso de parámetros, cuando hacemos un pase por referencia de la variable global esta se vera modificada en la función, mientras que si hacemos un paso por valor de la variable esta se clonará y guardara en otro espacio de memoria, por tanto no se verá modificada por la función.
 
 En python el paso de parámetros a una función es por un tipo de referencia, pero recordemos que existen objetos que son inmutables como las tuplas, por lo que si quisiéramos hacer un cambio en un elemento de la tupla, este no se modificaría. 
 
@@ -406,7 +411,7 @@ En python el paso de parámetros a una función es por un tipo de referencia, pe
 
     #El resultado de esta ejecución seria 25[22,23] y 22[22,23]
 
-como vemos cundo salimos de la función la variable x no conserva los cambios una vez salimos de la función por que los enteros son inmutables en python, sin embargo la variable y si los conserva. 
+como vemos cundo salimos de la función la variable x no conserva los cambios una vez salimos de la función por que los enteros son inmutables en python, sin embargo la variable 'y' si los conserva. 
 
 ## Fuentes / Material apoyo
 * https://www.whoishostingthis.com/resources/programming/#python
