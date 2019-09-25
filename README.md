@@ -415,5 +415,6 @@ como vemos cundo salimos de la función la variable x no conserva los cambios un
 
 ##   Material apoyo
 * https://www.whoishostingthis.com/resources/programming/#python
+* https://www.w3schools.com/python/default.asp
 
 
