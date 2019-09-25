@@ -413,8 +413,7 @@ En python el paso de parámetros a una función es por un tipo de referencia, pe
 
 como vemos cundo salimos de la función la variable x no conserva los cambios una vez salimos de la función por que los enteros son inmutables en python, sin embargo la variable 'y' si los conserva. 
 
-## Fuentes / Material apoyo
+##   Material apoyo
 * https://www.whoishostingthis.com/resources/programming/#python
-* Python Para Todos - Raul Gonzales Duque.
 
 
