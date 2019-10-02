@@ -38,7 +38,7 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 
 ## Temas
 
-[Tipos](\Python for Begginers\PythonBegginers\Tipos\Tipos.md)
+[Tipos](/Python for Begginers/PythonBegginers/Tipos/Tipos.md)
 
 [Operadores Aritmeticos](/PythonBegginers/OperadoresArit/Operadores.md)
 
