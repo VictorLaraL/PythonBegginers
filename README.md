@@ -40,11 +40,11 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 
 [Tipos](/pythonBegginers/Tipos/Tipos.md)
 
-[Operadores Aritmeticos](/pythonBegginers/OperadoresArit/Operadores.md)
+[Operadores Aritmeticos](/PythonBegginers/OperadoresArit/Operadores.md)
 
-[Control de Flujo](/pythonBegginers/ControlFlujo/ControlFlujo.md)
+[Control de Flujo](/PythonBegginers/ControlFlujo/ControlFlujo.md)
 
-[Funciones](/pythonBegginers/Funciones/Funciones.md)
+[Funciones](/PythonBegginers/Funciones/Funciones.md)
 
 ##   Material apoyo
 * https://www.whoishostingthis.com/resources/programming/#python
