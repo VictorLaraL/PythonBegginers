@@ -1,6 +1,6 @@
 # **Python for Begginers**
 
-[Python-logo.png](imgs/Python-logo.png)
+![Python-logo.png](imgs/Python-logo.png)
 
 ## Introduccion 
 
