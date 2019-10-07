@@ -10,6 +10,8 @@ Python es un lenguaje de alto nivel de tipo interpretado utilizado comunmente pa
 ###    Interpretado
 Un lenguaje interpretado o de 'script' es aquel que se ejecuta utilizando un programa intermedio llamado intérprete; en lugar de compilar el código y retornar un objeto (archivo ejecutable para el SO) el intérprete ejecuta las ordenes o scripts, dándonos un resultado lógico.
 
+![interprete.png](imgs/interprete.png)
+
 Sin embargo, Python tiene muchas características de los lenguajes compilados, por lo que se podría decir que es 'semi-interpretado' dado que al igual que en Java y muchos otros lenguajes no interpretados el código fuente de Python se traduce a un pseudocódigo máquina intermedio llamado 'bytecode' que al ejecutarse por primera vez genera archivos .pyc o .pyo, que son los que se ejecutaran en repetidas ocasiones posteriores.
 
 ###    Tipado Dinámico
