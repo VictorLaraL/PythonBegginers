@@ -7,24 +7,30 @@ Las funciones aportan características como la reutilización y ayudan en la dep
 
 En python las funciones se declaran de la siguiente forma:
 
+```python
     def mi_funcion(param1, param2):
         print(param1)
         print(param2)
+```
 
 A la hora de declarar una función se comienza con la palabra reservada def seguido del nombre de nuestra función (en minúsculas como buena practica) y entre paréntesis los argumentos a pasar separados por comas. A continuación después de los dos puntos y con su debida identación, en otra línea, escribimos el código que queremos que ejecute dicha función.
 
 para poder utilizar dicha función la forma de utilizarla es llamarla:
 
+```python
     mi_funcion(param1, param2)
-
+```
 Podemos llamar a la función en cualquier parte del código siempre y cuando le pasemos los parámetros que nos pida.
 
 el paso de parámetros es en el mismo orden en que la declaramos, aunque podríamos pasarlos desordenados pero especificando el nombre del parámetro al que le asociamos el valor.
 
+```python
     mi_funcion(param2 = 2, param1 = 'hola')
+```
 
 veamos un ejemplo más interesante utilizando lo ya aprendido:
 
+```python
     nombres = []
     apellidos = []
 
@@ -60,22 +66,28 @@ veamos un ejemplo más interesante utilizando lo ya aprendido:
                 print('nombre: {} | apellido: {}'.format(nombres[i],apellidos[j]))
             else:
                 continue
+```
+[Codigo](/Funciones/funciones.py)
 
 En el ejemplo anterior primero tenemos una función que recibe dos parámetros y después de verificar que no sean vacíos los almacena en dos listas previamente declaradas. Después entramos a un bucle donde podemos ingresar nombres con apellidos separados por un espacio para enviarlos a la función, haciendo uso de la función 'split' podemos separar el nombre del apellido y meterlo a una lista, una vez creada la lista sabemos que el primer elemento es el nombre y el segundo el apellido así que en ese orden lo mandamos a la función. En caso de escribir x nos saldremos del bucle. Fuera del bucle entramos a otro bucle for donde utilizamos la funcion 'range', esta funcion recibe un entero que toma como el numero a recorrer desde 0 hasta el numero que le asignamos, por eso utilizamos la función 'len', esta funcion nos devuelve el numero de elementos que tenemos en la lista, entonces la funcion 'range' ira de 0 hasta lo que devuelva 'len' y se le asignará a la variable i o j dependiendo el bucle en el que estemos.
 
 en las funciones de igual manera podemos hacer que reciban un número n de parámetros utilizando el operador (*) antes del nombre, esto nos creara una tupla que almacenara los valores que le hayamos pasado a la función: 
 
+```python
     def funcion_nparam(*param):
         print(nparam)
 
     funcion_nparam(1,2,3,'hola')
+```
 
 o en otros casos podemos pasar una cantidad n de datos pero sujetos a una clave, de la misma forma que lo hacemos en un diccionario y de hecho se almacenan en un diccionario:
 
+```python
     def funcion_nparam(**param):
         print(param)
 
     funcion_nparam = (primero = 1, segindo = 2, tercero = 3)
+```
 
 Como último aspecto a revisar en cuanto a las funciones, queda explicar el paso de parámetros, si lo hacen por valor o por referencia. En el paso por referencia se hace paso de una referencia o puntero a la variable, es decir, la dirección de memoria donde se encuentra dicha variable y no su contenido en si. En el paso por valor, por el contrario, lo que se pasa como argumento es una copia del valor de dicha variable.
 
@@ -85,6 +97,7 @@ Entonces volviendo al paso de parámetros, cuando hacemos un pase por referencia
 
 En python el paso de parámetros a una función es por un tipo de referencia, pero recordemos que existen objetos que son inmutables como las tuplas, por lo que si quisiéramos hacer un cambio en un elemento de la tupla, este no se modificaría. 
 
+```python
     def f(x,y):
         x = x+3
         y.append(23)
@@ -98,5 +111,6 @@ En python el paso de parámetros a una función es por un tipo de referencia, pe
     print(x,y)
 
     #El resultado de esta ejecución seria 25[22,23] y 22[22,23]
+```
 
 como vemos cundo salimos de la función la variable x no conserva los cambios una vez salimos de la función por que los enteros son inmutables en python, sin embargo la variable 'y' si los conserva. 

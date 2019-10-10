@@ -4,7 +4,7 @@ Ya que en python todo son objetos, las colecciones resultan ser un tipo de dato 
 ##    Listas
 Es un tipo de colección ordenada. Seria el equivalente a un array o vector en otros lenguajes.
 
-
+```python
     #Listas: Pueden contener cualquier tipo de datos, incluido más listas
 
     li = [1,2.5,'hola',True] # Cada elemento es separado por una coma
@@ -32,10 +32,12 @@ Es un tipo de colección ordenada. Seria el equivalente a un array o vector en o
     print(lista_index[0][2])
 
     print(lista_index)
+```
 
 ##    Tuplas
 También es un tipo de colección ordenada al igual de las listas pero con las siguientes características.
 
+```python
     #Tuplas: Todo lo explicado anteriormente aplica para las tuplas excepto la forma de definirlas mediante los parentesis ()
 
     tupla = (1,2.5,"Python", False)
@@ -51,12 +53,12 @@ También es un tipo de colección ordenada al igual de las listas pero con las s
     #Esto ocurre por que el constructor de la tupla es la coma y no el paréntesis.
 
     #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
-
+```
 
 ##    Dicionarios
 Los diccionarios funcionan asociando claves con valores
 
-
+```python
     #Diccionarios: A diferencia de los dos tipos anteriores de colecciones los diccionarios no tienen un orden, estos cuentan con claves y valores, asociados entre si
 
     dic = {"1":"hola", "2":"mundo"} # El primer valor se trata de la clave y el segundo del valor asociado a esta clave
@@ -71,3 +73,8 @@ Los diccionarios funcionan asociando claves con valores
 
     dic["1"] = "adios"
     print(dic["1"])
+```
+
+[Codigo](/Colecciones/colecciones.py)
+
+[Siguiente: Funciones](Funciones/Funciones.md)
