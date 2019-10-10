@@ -1,14 +1,14 @@
 # Tipos basicos en Python
 
 # Numeros: Enteros
-a = 3 # Asignacion de un valor enteroa una variable
+a = 3 # Asignacion de un valor entero a una variable
 
 print("El valor de la variable a es: ", a)
 
 # Numeros: Coma flotante
 b = -1.5 # Asignacion de un entero con decimales o de coma flotante
 
-print('El valor de la vareiable b es: ', str(b))
+print('El valor de la vareiable b es: '+ str(b))
 
 # Cadenas de texto
 cadena = "Hola mundo"
