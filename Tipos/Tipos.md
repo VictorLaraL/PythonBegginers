@@ -7,42 +7,46 @@ En python los tipos básicos se dividen en:
 * Valores Booleanos: True (cierto), False (falso)
 
 Probemos los tipos básicos con el siguiente código:
+
 '''python
-    #Tipos básicos en Python
 
-    #Números: Enteros
-    a = 3 # Asignación de un valor entero a una variable
+#Tipos básicos en Python
 
-    print("El valor de la variable a es: ", a)
+#Números: Enteros
+a = 3 # Asignación de un valor entero a una variable
 
-    #Números: Coma flotante
-    b = -1.5 # Asignación de un entero con decimales o de coma flotante
+print("El valor de la variable a es: ", a)
 
-    print('El valor de la vareiable b es: ', str(b))
+#Números: Coma flotante
+b = -1.5 # Asignación de un entero con decimales o de coma flotante
 
-    #Cadenas de texto
-    cadena = "Hola mundo"
+print('El valor de la vareiable b es: ', str(b))
 
-    print(cadena)
+#Cadenas de texto
+cadena = "Hola mundo"
 
-    cadena2 = 'Hola adios'
+print(cadena)
 
-    print(cadena2)
+cadena2 = 'Hola adios'
 
-    #Valores Booleanos
+print(cadena2)
 
-    x = True
+#Valores Booleanos
 
-    y = False
+x = True
 
-    print("El valor de 'x' es: {} y el de 'y' es: {}".format(x,y))
+y = False
 
-    #Nota: Con la función type() podemos identificar el tipo de una variable
+print("El valor de 'x' es: {} y el de 'y' es: {}".format(x,y))
 
-    print(type(a))
+#Nota: Con la función type() podemos identificar el tipo de una variable
 
-    print(type(cadena))
+print(type(a))
 
-    print(type(x))
+print(type(cadena))
+
+print(type(x))
+
 '''
+
 Como pudimos ver en el codigo anterior existen muchas formas de imprimir por pantalla utilizando la funcion 'print', podemos utilizar la coma seguido de la variable a imprimir, utilizar tambien el simbolo '+' seguido de un casting o la funcion format() como se muestra en los ejemplos. 
