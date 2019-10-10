@@ -75,4 +75,4 @@ Los diccionarios funcionan asociando claves con valores
 
 [Codigo](/Colecciones/colecciones.py)
 
-[Siguiente: Funciones](Funciones/Funciones.md)
+[Siguiente: Funciones](/Funciones/Funciones.md)
