@@ -56,4 +56,4 @@ Veamos cómo funciona la precedencia de operaciones con el código siguiente:
 ```
 [Codigo](/OperadoresArit/operadores.py)
 
-[siguiente: Control de Flujo](/ControlFlujo/ControlFlujo.md)
+[Siguiente: Control de Flujo](/ControlFlujo/ControlFlujo.md)
