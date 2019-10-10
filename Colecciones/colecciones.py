@@ -50,8 +50,6 @@ tup = (1,)
 
 print(type(tup))
 
-# Esto ocurre por que el constructor de la tupla es la coma y no el parentesis.
-
 # A diferencia de las listas las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
 
 # Diccionarios: A diferencia de los dos tipos anteriores de colecciones los diccionarios no tienen un orden, estos cuentan con claves y valores, asociados entre si

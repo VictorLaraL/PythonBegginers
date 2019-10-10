@@ -50,8 +50,6 @@ También es un tipo de colección ordenada al igual de las listas pero con las s
 
     print(type(tup))
 
-    #Esto ocurre por que el constructor de la tupla es la coma y no el paréntesis.
-
     #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
 ```
 
