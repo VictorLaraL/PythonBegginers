@@ -27,19 +27,21 @@ Como primer acercamiento al lenguaje haremos que imprima el texto "Hello world" 
 En primer lugar lo haremos desde el intérprete en la caja de comandos (shell).
 Lo activamos escribiendo el comando 'python' y después escribimos el código siguiente:
 
+```python
     print('Hello world')
-
+```
 Al finalizar, presionamos la tecla 'enter'. 
 
 Ahora para crear un fichero abrimos nuestro editor de texto o IDE de preferencia y copiamos el código dentro de él, guardando el fichero con el nombre que deseemos y la extensión '.py' (por ejemplo: 'hola.py'). Posteriormente, podemos ejecutar el código a través de la caja de comandos dirigiéndonos a la dirección donde está el archivo y bastará con escribir el nombre de este con su extensión y oprimir la tecla 'enter'.
 
 Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea de comando y """al inicio y final de un comentario en el que se emplee más de una línea.
 
+```python
     #Ejemplo de un comentario en una sola línea
 
     """ Ejemplo de otro comentario
     en mas de una línea """
-
+```
 ## Temas
 
 * [Tipos](Tipos/Tipos.md)
