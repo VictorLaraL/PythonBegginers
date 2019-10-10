@@ -47,6 +47,7 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 * [Tipos](Tipos/Tipos.md)
 * [Operadores Aritmeticos](OperadoresArit/Operadores.md)
 * [Control de Flujo](ControlFlujo/ControlFlujo.md)
+* [Colecciones](/Colecciones/Colecciones.md)
 * [Funciones](Funciones/Funciones.md)
 
 ##   Material apoyo
