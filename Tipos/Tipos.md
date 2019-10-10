@@ -10,42 +10,42 @@ Probemos los tipos básicos con el siguiente código:
 
 ```python
 
-#Tipos básicos en Python
+    #Tipos básicos en Python
 
-#Números: Enteros
-a = 3 # Asignación de un valor entero a una variable
+    #Números: Enteros
+    a = 3 # Asignación de un valor entero a una variable
 
-print("El valor de la variable a es: ", a)
+    print("El valor de la variable a es: ", a)
 
-#Números: Coma flotante
-b = -1.5 # Asignación de un entero con decimales o de coma flotante
+    #Números: Coma flotante
+    b = -1.5 # Asignación de un entero con decimales o de coma flotante
 
-print('El valor de la vareiable b es: ', str(b))
+    print('El valor de la vareiable b es: ', str(b))
 
-#Cadenas de texto
-cadena = "Hola mundo"
+    #Cadenas de texto
+    cadena = "Hola mundo"
 
-print(cadena)
+    print(cadena)
 
-cadena2 = 'Hola adios'
+    cadena2 = 'Hola adios'
 
-print(cadena2)
+    print(cadena2)
 
-#Valores Booleanos
+    #Valores Booleanos
 
-x = True
+    x = True
 
-y = False
+    y = False
 
-print("El valor de 'x' es: {} y el de 'y' es: {}".format(x,y))
+    print("El valor de 'x' es: {} y el de 'y' es: {}".format(x,y))
 
-#Nota: Con la función type() podemos identificar el tipo de una variable
+    #Nota: Con la función type() podemos identificar el tipo de una variable
 
-print(type(a))
+    print(type(a))
 
-print(type(cadena))
+    print(type(cadena))
 
-print(type(x))
+    print(type(x))
 
 ```
 [codigo](/Tipos/tipos.py)
