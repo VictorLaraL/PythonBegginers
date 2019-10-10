@@ -51,3 +51,5 @@ print(type(x))
 [codigo](/Tipos/tipos.py)
 
 Como pudimos ver en el codigo anterior existen muchas formas de imprimir por pantalla utilizando la funcion 'print', podemos utilizar la coma seguido de la variable a imprimir, utilizar tambien el simbolo '+' seguido de un casting o la funcion format() como se muestra en los ejemplos. 
+
+[Siguiente: Operadores Aritmeticos](/OperadoresArit/Operadores.md)

@@ -11,6 +11,7 @@ El orden de presendencia de ejecución de los operadores aritméticos es:
 
 Veamos cómo funciona la precedencia de operaciones con el código siguiente: 
 
+```python
     #Operadores en python
 
     a,b = 10,6 # Definimos dos variables para utilizar los operadores
@@ -52,3 +53,6 @@ Veamos cómo funciona la precedencia de operaciones con el código siguiente:
     d = a+b*a
     c = (a+b)*a
     print("Si nosotros escribieramos la ecuación a+b*a el resultado es: {} pero con los paréntesis la operación nos da: {}".format(d,c))
+```
+
+[siguiente: Control de Flujo](ControlFlujo/ControlFlujo.md)
