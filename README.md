@@ -42,6 +42,7 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
     """ Ejemplo de otro comentario
     en mas de una línea """
 ```
+
 ## Temas
 
 * [Tipos](Tipos/Tipos.md)
