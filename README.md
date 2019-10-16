@@ -51,7 +51,8 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 * [Colecciones](Colecciones/Colecciones.md)
 * [Funciones](Funciones/Funciones.md)
 
-##   Material apoyo
+## Material apoyo
 * https://www.whoishostingthis.com/resources/programming/#python
 * https://www.w3schools.com/python/default.asp
 * https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion1/caracteristicas.html
+* https://python.quantecon.org/index_toc.html
