@@ -1,4 +1,4 @@
-# Tipos Básicos
+# Tipos Básicos.
 
 En python los tipos básicos se dividen en:
  
