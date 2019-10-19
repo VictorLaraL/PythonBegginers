@@ -1,15 +1,15 @@
-# Operadores aritméticos
+# Operadores aritméticos.
 
 Los operadores aritméticos binarios son aquellos que necesitan de dos números y al aplicarles una operación dan como resultado un tercer número. 
 
-##    Precedencia de operadores
-El orden de presendencia de ejecución de los operadores aritméticos es:
+##    Precedencia de operadores.
+El orden de precedencia de ejecución de los operadores aritméticos es:
 1. Exponente: **
 2. Negación: -
-3. Multiplicación, Division, División Entera, Módulo: *,/,//,%
+3. Multiplicación, División, División Entera, Módulo: *,/,//,%
 4. Suma, Resta: +,-}
 
-Veamos cómo funciona la precedencia de operaciones con el código siguiente: 
+Veamos cómo funciona la precedencia de operadores con el código siguiente: 
 
 ```python
     #Operadores en python
@@ -32,12 +32,12 @@ Veamos cómo funciona la precedencia de operaciones con el código siguiente:
     #Multiplicación
 
     c = a*b
-    print("La multiplicacion de las dos variables es: ", str(c))
+    print("La multiplicación de las dos variables es: ", str(c))
 
     #División
 
     c = a/b
-    print(" la division de las variables es: ", str(c))
+    print(" la división de las variables es: ", str(c))
 
     #Exponente
 
@@ -48,11 +48,11 @@ Veamos cómo funciona la precedencia de operaciones con el código siguiente:
     c = a%b 
     print("El modulo de {} entre {} es: {}".format(a,b,c))
 
-    #Paréntesis: Los paréntesis sirven para modificar el orden de precedencia, esto por que lo primero en ejecutarse es lo que está dentro de los parentesis.
+    #Paréntesis: Los paréntesis sirven para modificar el orden de precedencia, esto porque lo primero en ejecutarse es lo que está dentro de los paréntesis.
 
     d = a+b*a
     c = (a+b)*a
-    print("Si nosotros escribieramos la ecuación a+b*a el resultado es: {} pero con los paréntesis la operación nos da: {}".format(d,c))
+    print("Sí nosotros escribieramos la ecuación a+b*a el resultado es: {} pero con los paréntesis la operación nos da: {}".format(d,c))
 ```
 [Codigo](/OperadoresArit/operadores.py)
 
