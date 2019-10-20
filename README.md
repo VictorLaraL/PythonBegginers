@@ -56,3 +56,4 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 * https://www.w3schools.com/python/default.asp
 * https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion1/caracteristicas.html
 * https://python.quantecon.org/index_toc.html
+* https://www.geeksforgeeks.org/python-programming-language/
