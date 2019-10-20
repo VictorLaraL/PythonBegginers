@@ -67,7 +67,7 @@ Veamos un ejemplo más interesante utilizando lo ya aprendido:
             else:
                 continue
 ```
-[Codigo](/Funciones/funciones.py)
+[Código.](/Funciones/funciones.py)
 
 En el ejemplo anterior primero tenemos una función que recibe dos parámetros y después de veríficar que no sean vacíos los almacena en dos listas previamente declaradas. Después entramos a un bucle donde podemos ingresar nombres con apellidos separados por un espacio para enviarlos a la función, haciendo uso de la función 'split' podemos separar el nombre del apellido y meterlo a una lista, una vez creada la lista sabemos que el primer elemento es el nombre y el segundo el apellido, así que, en ese orden lo mandamos a la función. En caso de escribir x nos saldremos del bucle. Fuera del bucle entramos a otro bucle, for, donde utilizamos la función 'range', esta función recibe un entero que toma como el número a recorrer desde 0 hasta el número que le asignamos, por eso utilizamos la función 'len', esta función nos devuelve el número de elementos que tenemos en la lista, entonces, la función 'range' irá de 0 hasta lo que devuelva 'len' y se le asignará a la variable i o j dependiendo el bucle en el que estemos.
 
