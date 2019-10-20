@@ -5,7 +5,7 @@
 ## Introduccion 
 
 ###    ¿Qué es python?
-Python es un lenguaje de alto nivel de tipo interpretado utilizado comunmente para la creación de scripts. Fue creado por el científico de la computación Guido Van Rossum a principios de los años 90; el nombre del lenguaje está inspirado en el grupo de cómicos ingleses "Monty Python". Es un lenguaje similar a Perl pero se concentra más en una sintaxis limpia y en la fácil lectura del código.
+Python es un lenguaje de alto nivel de tipo interpretado utilizado comunmente para la creación de scripts. Fue creado por el científico de la computación Guido Van Rossum a principios de los años 90; el nombre del lenguaje está inspirado en el grupo de cómicos ingleses "Monty Python". Es un lenguaje similar a Perl, pero se concentra más en una sintaxis limpia y en la fácil lectura del código.
 
 ###    Interpretado.
 Un lenguaje interpretado, o de 'script', es aquel que se ejecuta utilizando un programa intermedio llamado intérprete; en lugar de compilar el código y retornar un objeto (archivo ejecutable para el SO) el intérprete ejecuta las ordenes o scripts, dándonos un resultado lógico.
