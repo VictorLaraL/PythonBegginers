@@ -12,13 +12,13 @@ Es un tipo de colección ordenada. Sería el equivalente a un array o vector en 
     #Para conocer el contenido de una lista podemos imprimirla con el metodo print
     print(li).
 
-    #Ademas también podemos imprimir algún valor dentro de la vista buscándolo de la siguiente forma:
+    #Además, también, podemos imprimir algún valor dentro de la vista buscándolo de la siguiente forma:
 
     print(li[0])
 
     print(li[3])
 
-    #En este caso nuestra lista tiene 4 elementos por lo que iniciamos contando con 0 hasta 3
+    #En este caso, nuestra lista tiene 4 elementos, por lo que, iniciamos contando con 0 hasta 3
 
     #Cuando tenemos una lista dentro de otra la manera de buscar algún elemento es la siguiente:
 
@@ -35,10 +35,10 @@ Es un tipo de colección ordenada. Sería el equivalente a un array o vector en 
 ```
 
 ##    Tuplas.
-También es un tipo de colección ordenada al igual de las listas pero con las siguientes características.
+También es un tipo de colección ordenada al igual que las listas, pero con las siguientes características.
 
 ```python
-    #Tuplas: Todo lo explicado anteriormente aplica para las tuplas excepto la forma de definirlas mediante los parentesis ()
+    #Tuplas: Todo lo explicado anteriormente aplica para las tuplas, excepto la forma de definirlas mediante los paréntesis ()
 
     tupla = (1,2.5,"Python", False)
 
@@ -50,7 +50,7 @@ También es un tipo de colección ordenada al igual de las listas pero con las s
 
     print(type(tup))
 
-    #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria
+    #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria.
 ```
 
 ##    Dicionarios.
