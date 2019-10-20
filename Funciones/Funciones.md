@@ -113,4 +113,4 @@ En python el paso de parámetros a una función es por un tipo de referencia, pe
     #El resultado de esta ejecución sería 25[22,23] y 22[22,23]
 ```
 
-Como vemos, cundo salimos de la función, la variable x no conserva los cambios una vez que salimos de la función, porque los enteros son inmutables en python, sin embargo, la variable 'y' sí los conserva. 
+Como vemos, cuando salimos de la función, la variable x no conserva los cambios una vez que salimos de la función, porque los enteros son inmutables en python, sin embargo, la variable 'y' sí los conserva. 
