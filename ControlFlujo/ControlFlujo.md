@@ -28,7 +28,7 @@ Ahora, en el mismo caso sí la variable 'hola' no guardara la cadena "hola mundo
         print(hola)
 ```
 
-Existe un caso más para la utilización del condicional 'if', este caso, es cuando tenemos una serie de condicionales, es decir, cuando queremos que se haga algo sino lo otro, sino esto otro. Entonces, podemos utilizar 'elif' (contracción de 'else if'), haciendo lo que se conoce como anidación de condicionales (if anidados), veamos un ejemplo:
+Existe un caso más para la utilización del condicional 'if', este caso, es cuando tenemos una serie de condicionales, es decir, cuando queremos que se haga algo si no lo otro, si no esto otro. Entonces, podemos utilizar 'elif' (contracción de 'else if'), haciendo lo que se conoce como anidación de condicionales (if anidados), veamos un ejemplo:
 
 ```python
     hola = 'hola'
@@ -45,10 +45,10 @@ Existe un caso más para la utilización del condicional 'if', este caso, es cua
 ```
 
 ##    Bucles.
-Mientras que los condicionales nos permiten ejecutar distintos fragmentos de código dependiendo de ciertas condiciones, los bucles nos permiten ejecutar un mismo fragmento de código, un cierto numero de veces, mientras se cumpla una determinada condición.
+Mientras que los condicionales nos permiten ejecutar distintos fragmentos de código dependiendo de ciertas condiciones, los bucles nos permiten ejecutar un mismo fragmento de código, un cierto número de veces, mientras se cumpla una determinada condición.
 
 ### while.
-El bucle while (mientras) ejecuta un fragmento de código mientras se cumpla una condicion:
+El bucle while (mientras) ejecuta un fragmento de código mientras se cumpla una condición:
 
 ```python
     edad = 0 # Inicializamos nuestra variable que servirá de contador.
@@ -87,7 +87,7 @@ En este bucle conocimos dos funciones necesarias, pero no obligatorias en los bu
 
 Otra función que utilizamos en el bucle es break, esta función nos permite salir de cualquier tipo de bucle en la sentencia en donde lo declaremos, posiblemente (sí no esta al final del bucle) sin terminar las instruciones restantes dentro del bucle.
 
-De la misma forma, existe una función mas que nos sirve en los bucles, hablamos de continue (continuar), esta función nos pasa a la siguiente iteracion del bucle interrumpiendo la ejecución del bucle a partir de donde la declaremos.
+De la misma forma, existe una función mas que nos sirve en los bucles, hablamos de continue (continuar), esta función nos pasa a la siguiente iteración del bucle interrumpiendo la ejecución del bucle a partir de donde la declaremos.
 
 ### For.
 La sentencia for (o función) funciona como una forma genérica de iterar sobre una secuencia, como tal intenta facilitar su uso para esta.
