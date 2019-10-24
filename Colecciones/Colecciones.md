@@ -1,7 +1,7 @@
 # Colecciones.
 Las colecciones resultan ser un tipo de dato en el que se almacena información, de cierta forma estructurada, en python encontramos las 3 mas básicas: Listas, Tuplas y diccionarios.
 
-##    Listas.
+## Listas.
 Es un tipo de colección ordenada. Sería el equivalente a un array o vector en otros lenguajes.
 
 ```python
@@ -34,7 +34,7 @@ Es un tipo de colección ordenada. Sería el equivalente a un array o vector en 
     print(lista_index)
 ```
 
-##    Tuplas.
+## Tuplas.
 También es un tipo de colección ordenada al igual que las listas, pero con las siguientes características.
 
 ```python
@@ -53,7 +53,7 @@ También es un tipo de colección ordenada al igual que las listas, pero con las
     #A diferencia de las listas, las tuplas son inmutables y de un tamaño fijo lo que permite el ahorro de memoria.
 ```
 
-##    Dicionarios.
+## Dicionarios.
 Los diccionarios funcionan asociando claves con valores.
 
 ```python
@@ -73,6 +73,31 @@ Los diccionarios funcionan asociando claves con valores.
     print(dic["1"])
 ```
 
+## Funciones para Listas
+Dentro de las colecciones (listas y en algunos casos tuplas), nos encontramos con una serie de metodos especiales que nos siren para un mejor manejo de estas estructuras de datos.
+
+### len()
+Este metodo nos regresa la canitidad de elementos en nuestra lista o tupla en forma de un entero.
+
+```python
+lista = [1,2,3,'hola','adios']
+
+print('la cantidad de elementos en nuestra lista son: ', len(lista))
+```
+
+### append()
+Metodo que nos sirve para agregar elementos a nuestra lista o tupla
+
+```python
+lista = [1,2,3,hola,adios]
+
+hola = 4
+
+lista.append(hola)
+
+lista.append('buenos dias')
+```
+
 [Codigo](/Colecciones/colecciones.py)
 
-[Siguiente: Funciones](/Funciones/Funciones.md)
+[Siguiente: Control de Flujo](/ControlFlujo/ControlFlujo.md)

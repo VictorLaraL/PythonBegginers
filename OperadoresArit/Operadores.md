@@ -54,6 +54,7 @@ Veamos cómo funciona la precedencia de operadores con el código siguiente:
     c = (a+b)*a
     print("Sí nosotros escribieramos la ecuación a+b*a el resultado es: {} pero con los paréntesis la operación nos da: {}".format(d,c))
 ```
+
 [Codigo](/OperadoresArit/operadores.py)
 
-[Siguiente: Control de Flujo](/ControlFlujo/ControlFlujo.md)
+[Siguiente: Colecciones](/Colecciones/Colecciones.md)

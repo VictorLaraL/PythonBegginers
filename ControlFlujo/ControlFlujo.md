@@ -1,6 +1,6 @@
 # Control de Flujo.
-    
-##    Sentencias condicionales.
+
+## Sentencias condicionales.
 Los condicionales nos permiten comprobar condicionantes y hacer que nuestro programa se comporte de una forma u otra, que ejecute un fragmento de código u otro, dependiendo de esta condición.
 
 ### if.
@@ -44,7 +44,7 @@ Existe un caso más para la utilización del condicional 'if', este caso, es cua
         print(hola)
 ```
 
-##    Bucles.
+## Bucles.
 Mientras que los condicionales nos permiten ejecutar distintos fragmentos de código dependiendo de ciertas condiciones, los bucles nos permiten ejecutar un mismo fragmento de código, un cierto número de veces, mientras se cumpla una determinada condición.
 
 ### while.
@@ -112,4 +112,4 @@ En este caso, la secuencia es la lista de nombres y con la función 'for' iteram
 
 Pero también podemos utilizar esta función con range, que nos permite ir de un número a otro, es decir, en un rango específico, pero esa funcionalidad la veremos en temas posteriores.
 
-[Siguiente: Colecciones](/Colecciones/Colecciones.md)
+[Siguiente: Funciones](/Funciones/Funciones.md)

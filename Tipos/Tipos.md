@@ -1,7 +1,7 @@
 # Tipos Básicos.
 
 En python los tipos básicos se dividen en:
- 
+
 * Números: Como pueden ser enteros(1,2,3,...), de coma flotante(1.1,1.2,1.3,...) o complejos (7+5j)
 * Cadenas de texto: Como "Hola mundo"
 * Valores Booleanos: True (cierto), False (falso)

@@ -47,8 +47,8 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 
 * [Tipos](Tipos/Tipos.md)
 * [Operadores Aritmeticos](OperadoresArit/Operadores.md)
-* [Control de Flujo](ControlFlujo/ControlFlujo.md)
 * [Colecciones](Colecciones/Colecciones.md)
+* [Control de Flujo](ControlFlujo/ControlFlujo.md)
 * [Funciones](Funciones/Funciones.md)
 
 ## Material apoyo.
@@ -57,3 +57,4 @@ Nota: Para agregar comentarios en python podemos usar "#" al inicio de la línea
 * https://entrenamiento-python-basico.readthedocs.io/es/latest/leccion1/caracteristicas.html
 * https://python.quantecon.org/index_toc.html
 * https://www.geeksforgeeks.org/python-programming-language/
+* https://tutorial.recursospython.com/
