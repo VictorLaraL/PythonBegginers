@@ -1,17 +1,4 @@
-''' 
-Ejercicio para la creacion de una lista de alumnos con sus respectivas caificaciones del semestre: 
-*   Ingresaremos el nombre de pila del alumno y su primer apellido, seguido de el numero de materias que llevo en el semestre. 
-    [el numero de materias debe ser mayor a 0]
-*   Pediremos la calificacion de cada materia y calcularemos su promedio de ese semestre si es mayor a 70
-    almacenaremos TRUE y si es menor a 70 FALSE.[las calificaciones no pueden ser negativas ni estar por encima del 100, pero si 
-    pueden ser 0] 
-*   Los datos los almacenaremos en una lista (nombre, apellido, calificacion, A/R) y al final crearemos una lista de     
-    alumnos. [la lista de alumnos debe estar en un dicionario y la clave de cada alumno sera su nombre] 
-*   El main contendra el menu para agregar los alumnos que el usuario desee hasta que se interrumpa la ejecucion         
-    ingresando xxx en el nombre del alumno.
-*   Una vez dejemos de ingresar los datos el programa, se ejecutara la lista de alumnos con sus respectivos datos.
-    [los datos que deben aparecer deben ser de esta forma: nombre    apellido    calificacion    A/R]
-*   El ejercicio lo ejecutaremos en funciones:'''
+https://www.evernote.com/l/AkCI-zSv-oxCS4uaehwJ3wAeaW8P5HmX4v8/
 
 listaAlumnos = {}
 
@@ -50,6 +37,6 @@ while True:
     elif promedio < 70 :
         agregarAlumno([nombre, apellido, promedio, 'R'])
     
-for alumno in listaAlumnos.values(): 
+for alumno in listaAlumnos.values(): # llamamos a los valores del diccionario que en este caso son listas por eso accedemos en indices
     print('{} \t\t {} \t\t {} \t\t {}'.format(alumno[0], alumno[1], alumno[2], alumno[3])) 
 
