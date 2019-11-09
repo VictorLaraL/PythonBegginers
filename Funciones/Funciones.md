@@ -59,7 +59,7 @@ Veamos un ejemplo más interesante utilizando lo ya aprendido:
             break
 
 
-    print('\nla lista de nombres es: ')
+    print('\nla lista de nombres es: ') #los parametros \n \t nos sirven para salto de linea y tabulacion del texto
     for i in range(len(nombres)):
         for j in range(len(apellidos)):
             if i == j:
