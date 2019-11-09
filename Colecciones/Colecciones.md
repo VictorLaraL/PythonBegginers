@@ -98,6 +98,19 @@ lista.append(hola)
 lista.append('buenos dias')
 ```
 
+### split()
+Metodo que nos sirve para dividir una cadena de texto de acuerdo al parametro que usemos para dividirla, el parametro se pasa por el operador () y nos devuelve una lista con la cadena separada, es decir, cada valor de la lista es una parte de la cadena.
+
+```python
+hola = 'hola, mundo, maldito'
+palabras = hola.split(,)
+
+print(palabras)
+
+for palabra in palabras:
+    print(palabra)
+```
+
 [Codigo](/Colecciones/colecciones.py)
 
 [Siguiente: Control de Flujo](/ControlFlujo/ControlFlujo.md)
